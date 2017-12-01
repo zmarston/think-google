@@ -9,7 +9,7 @@ body {
   box-sizing: border-box;
 }
 .container {
-  width: 90vw;
+  /*width: 90vw;*/
 }
 .nav {
   margin-top: 10px;
@@ -117,20 +117,22 @@ ul {
   .main-img {
     float: left;
     width: 40vw;
-    height: 30vh;
+    height: 40vh;
   }
   .block {
     width: 20vw;
     float: left;
-    height: 282px;
+    height: 380px;
     margin-left: -10px;
     margin-top: -10px;
   }
+  .block-main-text {
+    float: left;
+    margin-top: 20px;
+    color: blue;
+  }
   .block:nth-child(2n+1) {
     clear: none;
-  }
-  .container {
-    max-width: 1600px;
   }
   .float-right {
     margin-right: 15%;
@@ -140,8 +142,16 @@ ul {
     padding-left: 70px;
   }
   h2 {
+    width: 60vw;
     padding-top: 20px;
     padding-left: 70px;
     padding-bottom: 40px;
   }
+}
+
+@media screen and (min-width:1600px){
+  .container {
+    max-width: 1600px;
+  }
+
 }
