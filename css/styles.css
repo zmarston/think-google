@@ -1,17 +1,42 @@
+body {
+  width: 100vw;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding-left: 3%;
+  border-top: 5px solid green;
+}
+.container {
+  width: 90vw;
+}
+.nav {
+  width: 100vw;
+}
+.search {
+  float: right;
+  margin-right: 10%;
+}
 #people-tablets {
   height: 40vh;
 }
 .block {
-  margin-top: 5%;
-  overflow: auto;
-  background-color: #b3ccff;
+  border: 10px solid white;
+  overflow: hidden;
+  background-color: darkgrey;
 }
 .block-pic {
-  margin-top: 6%;
+  margin-left: 3%;
+  margin-top: 6vh;
   width: 20vw;
   float: left;
 }
 .block-text{
+  margin-right: -3%;
   width: 60vw;
   float: right;
+}
+.block-main-text{
+  font-size: 1.3em;
+}
+.block-date {
+  color: grey;
 }
