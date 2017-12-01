@@ -1,3 +1,17 @@
 #people-tablets {
   height: 40vh;
 }
+.block {
+  margin-top: 5%;
+  overflow: auto;
+  background-color: #b3ccff;
+}
+.block-pic {
+  margin-top: 6%;
+  width: 20vw;
+  float: left;
+}
+.block-text{
+  width: 60vw;
+  float: right;
+}
