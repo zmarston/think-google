@@ -4,14 +4,21 @@ body {
   margin-left: 0px;
   padding-left: 3%;
   border-top: 5px solid green;
+  color: grey;
+  font-family: 'Raleway', sans-serif;
 }
 .container {
   width: 90vw;
 }
 .nav {
+  margin-top: 10px;
   width: 100vw;
 }
-.search {
+.nav img {
+  margin-left: 5%;
+  margin-bottom: -10px;
+}
+.float-right {
   float: right;
   margin-right: 10%;
 }
@@ -21,7 +28,7 @@ body {
 .block {
   border: 10px solid white;
   overflow: hidden;
-  background-color: darkgrey;
+  background-color: #bfbfbf;
 }
 .block-pic {
   margin-left: 3%;
@@ -33,10 +40,74 @@ body {
   margin-right: -3%;
   width: 60vw;
   float: right;
+  color: black;
 }
 .block-main-text{
   font-size: 1.3em;
 }
 .block-date {
   color: grey;
+}
+ul {
+  display: none;
+}
+
+@media screen and (min-width:600px) {
+  #people-tablets {
+    width: 90vw;
+    height: auto;
+  }
+  .block{
+    float: left;
+    width: 40vw;
+  }
+  .block:nth-child(2n+1) {
+    clear: both;
+  }
+  .block-pic {
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .block-text {
+    width: 100%;
+    margin-right: 100px;
+    float: none;
+  }
+  .block-main-text {
+    font-size: 1em;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width:1000px) {
+  ul {
+    margin-right: 20px;
+    color: black;
+    display: inline;
+    list-style: none;
+  }
+  li {
+    margin-right: 20px;
+    display: inline;
+  }
+  #people-tablets {
+    width: 40vw;
+    float: left;
+    max-height: 300px;
+  }
+  .block {
+    width: 20vw;
+    float: left;
+    height: 300px;
+    margin-left: -10px;
+  }
+  .block:nth-child(2n+1) {
+    clear: none;
+  }
+  .block:nth-child(3) {
+    margin-top: 10px;
+    float: left;
+    clear: both;
+  }
 }
