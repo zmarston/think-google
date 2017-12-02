@@ -148,10 +148,3 @@ ul {
     padding-bottom: 40px;
   }
 }
-
-@media screen and (min-width:1600px){
-  .container {
-    max-width: 1600px;
-  }
-
-}
